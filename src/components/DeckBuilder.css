@@ -1,0 +1,73 @@
+.deckbuilder-container {
+  padding: 2rem;
+}
+
+.deckbuilder-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.deckbuilder-status {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.save-button {
+  padding: 0.5rem 1rem;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #27ae60;
+}
+
+.deckbuilder-subtitle {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.deck-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-container {
+  position: relative;
+  display: inline-block;
+}
+
+.card-image {
+  width: 80px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.remove-button {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background: #c0392b;
+}

@@ -1,0 +1,99 @@
+.searchpage-container {
+  padding: 2rem;
+}
+
+.searchpage-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #1f6391;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.card-name {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  min-height: 40px;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.3rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-button.favorite {
+  background-color: #f39c12;
+  color: #fff;
+}
+.card-button.favorite:hover {
+  background-color: #d68910;
+}
+
+.card-button.main {
+  background-color: #27ae60;
+  color: #fff;
+}
+.card-button.main:hover {
+  background-color: #1e8449;
+}
+
+.card-button.side {
+  background-color: #447ead;
+  color: #fff;
+}
+.card-button.side:hover {
+  background-color: #3a6a92;
+}

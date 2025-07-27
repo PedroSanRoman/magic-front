@@ -1,0 +1,65 @@
+.favorites-container {
+  padding: 2rem;
+}
+
+.favorites-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.favorites-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.favorite-card {
+  position: relative; /* necesario para posicionar la X dentro */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 240px; /* ajusta al tamaño que usas */
+  background: rgba(0,0,0,0.4);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
+}
+
+.favorite-image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.favorite-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.3rem 0 0;
+  word-wrap: break-word;
+}
+
+.delete-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.1);
+}
